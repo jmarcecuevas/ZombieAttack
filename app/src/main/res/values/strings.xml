@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ZombieAttack</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="nickname">"Nickname"</string>
+    <string name="password">"Password</string>
+    <string name="not_registered">"Not registered? Register now!"</string>
+    <string name="sign_up_with">"Sign up with"</string>
+    <string name="sign_up">"SIGN UP"</string>
+    <string name="name">"Name"</string>
+    <string name="email">"Email"</string>
+    <string name="already_registered">"Already registered? Login Now"</string>
+    <string name="settings">"SETTINGS"</string>
+    <string name="music">"Music"</string>
+    <string name="vibration">"Vibration</string>
+    <string name="search_radius">"Search radius(in mtrs)"</string>
+    <string name="sign_out">"Sign out"</string>
+    <string name="enter_nickname">"Enter a nickname"</string>
+    <string name="ok">"OK"</string>
+    <string name="pleaseWait">Please wait...</string>
+    <string name="loginStatus">Login Status</string>
+    <string name="emptyUsername">Nickname cannot be empty</string>
+    <string name="emptyPassword">Password cannot be empty</string>
+    <string name="failedLogin">Login failed. Invalid userName or password.</string>
+    <string name="succesfulLogin">Succesful login.</string>
+    <string name="internetError">No Internet connectivity</string>
+    <string name="shortUserName"><![CDATA[UserName must be >=6 characters]]></string>
+    <string name="shortPassword"><![CDATA[Password must be >=6 characters]]></string>
+    <string name="emptyName">Name cannot be empty</string>
+    <string name="RegisterOK">Register Success...</string>
+    <string name="invalidUsername">This userName already exists</string>
+    <string name="unknownError">An unknown error has ocurred. Please try again.</string>
+    <string name="accessToken">pk.eyJ1IjoibHVja3ljb2RlIiwiYSI6ImNpc3RhaDdkeTAzOXoydWw4bzRjdnR5dDIifQ.ST-wL5X65zhHqGjXxS8ENQ</string>
+    <string name="mapStyle">mapbox://styles/luckycode/cixru6par00142rklk6jgqjp3</string>
+    <string name="GPSError">GPS signal not found</string>
+    <string name="emptyEmail">Email cannot be empty</string>
+    <string name="invalidEmail">Invalid email</string>
+
+
+</resources>

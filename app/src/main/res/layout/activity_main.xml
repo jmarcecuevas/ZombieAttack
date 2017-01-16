@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.luckycode.zombieattack.MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cielo2"
+            android:id="@+id/imageView4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/gradientsky"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapview"
+            app:zoom="18"
+            app:zoom_min="16"
+            app:zoom_max="18"
+            app:logo_enabled="false"
+            app:attribution_enabled="false"
+            app:scroll_enabled="false"
+            app:tilt="90"
+            app:center_latitude="-34"
+            app:center_longitude="-58"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.mapbox.mapboxsdk.maps.MapView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2200ff00"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/gradientmap"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zombie"
+            android:id="@+id/imagezombie"
+            android:background="@drawable/background_avatar"
+            android:paddingBottom="10dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnLogout"
+            android:layout_alignStart="@+id/btnLogout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="bold"
+            android:clickable="true"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tv_nickname" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

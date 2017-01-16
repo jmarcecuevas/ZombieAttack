@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessToken"></string>
+    <string name="email"></string>
+    <string name="failedLogin"></string>
+</resources>

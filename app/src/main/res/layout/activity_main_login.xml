@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="80dp"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp"
+    android:paddingTop="0dp"
+    android:background="@drawable/main_background"
+    tools:context="com.luckycode.zombieattack.ui.activity.MainLoginActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="@string/sign_up_with"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        style="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvSignUp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:src="@drawable/ombie_attack"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/progress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_marginBottom="26dp"
+        android:layout_above="@+id/tvSignUp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="GOOGLE"
+        android:textSize="13dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:id="@+id/sign_in_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/btn_google_light_normal9"
+        android:layout_marginTop="40dp"
+        android:layout_alignTop="@+id/tvSignUp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </Button>
+
+    <Button
+        android:text="Lucky Code"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:id="@+id/sign_in_luckycode"
+        android:layout_below="@+id/sign_in_google"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/progress"
+        android:layout_toLeftOf="@+id/tvSignUp"
+        android:layout_toStartOf="@+id/tvSignUp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/zombie_64"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progress"
+        android:layout_toRightOf="@+id/tvSignUp"
+        android:layout_toEndOf="@+id/tvSignUp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/devil_64"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

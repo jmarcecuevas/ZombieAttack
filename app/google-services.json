@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "792547310923",
+    "project_id": "luckygame-154816"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792547310923:android:cae8ab222f73b5f5",
+        "android_client_info": {
+          "package_name": "com.luckycode.luckygame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792547310923-8hghnvidvq390fk2v3ot1td5hqdsgltp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luckycode.luckygame",
+            "certificate_hash": "B1C6B4001DCE41A1358D92E29D8A0B56701AC305"
+          }
+        },
+        {
+          "client_id": "792547310923-3smc0r40fb8027j1k8lefaq6cf581331.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYoTtYQ7zl8im4IHT8X1C2KJ_3biuJQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
