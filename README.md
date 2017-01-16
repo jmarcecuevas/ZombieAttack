@@ -9,10 +9,10 @@ The idea, behind this, is that you can easily find people who are insterested in
 
 ##Getting Started
 Well, when you open the application you need to sign up, for this, you have two options:
-* Sign up with GOOGLE: You must choose a Google account and then you need to provide a valid nickname(existing nicknames or very short nicknames
+* Sign up with **GOOGLE**: You must choose a Google account and then you need to provide a valid nickname(existing nicknames or very short nicknames
 are not allowed). The application will be in charge to validate the nickname entered. In case you enter an invalid nickname,you will be notified and 
 you must enter a new nickname.
-* Sign up with a LuckyCode account: If you don't have a LuckyCode account, you must sign up. You will need to provide a name, a nickname, an email and a
+* Sign up with a **ZombieAttack** account: If you don't have a LuckyCode account, you must sign up. You will need to provide a name, a nickname, an email and a
 password. As in the Google case, the application validates each one of the fields to don't allow invalid data.
 
 ##Requisites:
