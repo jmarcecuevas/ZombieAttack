@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="AUTHOR">Marcelo Cuevas</string>
-    <string name="accessToken"></string>
+    <string name="accessToken">pk.eyJ1IjoibHVja3ljb2RlIiwiYSI6ImNpc3RhaDdkeTAzOXoydWw4bzRjdnR5dDIifQ.ST-wL5X65zhHqGjXxS8ENQ</string>
     <string name="email">Email</string>
     <string name="failedLogin">Inicio de sesión falló. El apodo o la contrraseña son incorrectas.</string>
     <string name="GPSError">Señal GPS no encontrada</string>
@@ -35,4 +35,6 @@
     <string name="shortUserName">El apodo debe ser >= a 6 caracteres</string>
     <string name="shortPassword">La contraseña debe ser >= a 6 caracteres</string>
     <string name="sign_upp">REGISTRAR</string>
+    <string name="app_name">ZombieAttack</string>
+    <string name="mapStyle">mapbox://styles/luckycode/cixru6par00142rklk6jgqjp3</string>
 </resources>

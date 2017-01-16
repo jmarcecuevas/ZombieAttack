@@ -18,7 +18,7 @@ public interface MainLoginView {
     void setInvalidNicknameError();
     void setInternetConnectionError();
     void dismissInternetConnectionError();
-    void signInWithLuckyCode();
+    void signInWithZombieAttack();
     void signInWithGoogle();
     void enterNickname(GoogleSignInAccount acc);
 }

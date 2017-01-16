@@ -48,7 +48,7 @@ public class MainLoginActivity extends BaseActivity implements MainLoginView,Goo
     @Inject @Named("sign_in_api") GoogleApiClient mGoogleApiClient;
     @Inject MainLoginPresenterImp mainLoginPresenter;
     @BindView(R.id.sign_in_google)Button signInGoogle;
-    @BindView(R.id.sign_in_luckycode)Button signInLuckyCode;
+    @BindView(R.id.sign_in_zombie_attack)Button signInZombieAttack;
     @BindView(R.id.progress)ProgressBar progressBar;
 
     @Override
@@ -174,7 +174,7 @@ public class MainLoginActivity extends BaseActivity implements MainLoginView,Goo
     }
 
     @Override
-    public void signInWithLuckyCode() {
+    public void signInWithZombieAttack() {
         continueMusic=true;
         startActivity(new Intent(this,LoginActivity.class));
         overridePendingTransition(R.anim.fade_in,R.anim.fade_out);
@@ -204,16 +204,16 @@ public class MainLoginActivity extends BaseActivity implements MainLoginView,Goo
         customDialog.show();
     }
 
-    @OnClick({R.id.sign_in_google,R.id.sign_in_luckycode})
+    @OnClick({R.id.sign_in_google,R.id.sign_in_zombie_attack})
     public void OnClick(View v){
         switch(v.getId()){
             case R.id.sign_in_google:
                 if(isInternetAvailable())
                     signInWithGoogle();
                 break;
-            case R.id.sign_in_luckycode:
+            case R.id.sign_in_zombie_attack:
                 if(isInternetAvailable())
-                    signInWithLuckyCode();
+                    signInWithZombieAttack();
                 break;
         }
     }
