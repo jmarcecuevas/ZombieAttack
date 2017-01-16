@@ -41,6 +41,15 @@ To develop this application I have used:
 * **Fade in,Fade out,Zoom in and Zoom out** as animations to the activities transitions.
 * **Two languages available**: The application is in English and Spanish.
 
+##Screenshots
+<p align="center">
+  <img src="Screenshots/menu.png" width="350"/>
+  <img src="Screenshots/enter_nickname.png" width="350"/>
+  <img src="Screenshots/main.png" width="350"/>
+  <img src="Screenshots/sign_up.png" width="350" />
+</p>
+
+
 
 
 
