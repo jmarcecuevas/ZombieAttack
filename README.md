@@ -3,7 +3,7 @@
 ##What is it?
 **ZombieAttack** is a not finished game project. It's a game designed to allow you to communicate with nearby people within a radius defined for
 you in the Settings screen. So, you can say It's a based user location game. 
-You can see your real location and the real nearby user's location on an interactive map. So, if you device position or the nearby users position
+You can see your real location and the real nearby user's location on an interactive map. So, if your device position or the nearby users position
 changes, you will see the "avatars" -which represents the players- moving across the screen.
 The idea, behind this, is that you can easily find people who are insterested in to play the game and challenges them to a duel.
 
@@ -40,6 +40,13 @@ To develop this application I have used:
 * **Custom Dialogs** : I created a class named "CustomDialog" which extends Dialog to personalize dialogs.
 * **Fade in,Fade out,Zoom in and Zoom out** as animations to the activities transitions.
 * **Two languages available**: The application is in English and Spanish.
+
+##WebServices
+As I use a MySQL database to store data, I created [some scripts in PHP] (PHP/) to connect Android with the database. 
+I decided to use PDO functions -has a much nicer interface and you can write safer and cleaner code- insted of mysql_*  functions that are getting old. Instead of concatenating escaped strings into SQL, in PDO you bind parameters which is an easier and cleaner way of securing queries. Binding parameters also allow for a performance increase when calling the same SQL query many times with slightly different parameters. Furthermore, If I decide migrate to another RDBMS such as PostgreSQL, Oracle, etc, I can easily migrate with PDO. 
+On other hand, I encrypt passwords using password_hash function to get a safer way of storing private data.
+As __ZombieAttack__ is a based user location game I used GIS(Geographic Information System),spatial indexes and queries in MySQL.
+
 
 ##Screenshots
 <p align="center">
