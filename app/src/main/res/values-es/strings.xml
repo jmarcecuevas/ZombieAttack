@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accessToken"></string>
-    <string name="email"></string>
-    <string name="failedLogin"></string>
+    <string name="email">Email</string>
+    <string name="failedLogin">Inicio de sesión falló. El apodo o la contrraseña son incorrectas.</string>
+    <string name="GPSError">Señal GPS no encontrada</string>
+    <string name="RegisterOK">Registro exitoso...</string>
+    <string name="already_registered">¿Ya estás registrado?Ingresa ahora</string>
+    <string name="emptyEmail">El email no puede estar vacío</string>
+    <string name="emptyName">El nombre no puede estar vacío</string>
+    <string name="emptyPassword">La contraseña no puede estar vacía</string>
+    <string name="emptyUsername">El apodo no puede estar vacío</string>
+    <string name="enter_nickname">Ingresa un apodo</string>
+    <string name="internetError">No hay conexión a Internet</string>
+    <string name="invalidEmail">Email inválido</string>
+    <string name="invalidUsername">Este apodo ya está en uso</string>
+    <string name="loginStatus">Estado de inicio de sesión</string>
+    <string name="music">Música</string>
+    <string name="name">Nombre</string>
+    <string name="nickname">Apodo</string>
+    <string name="not_registered">¿Aún no está registrado? Regístrate ahora!</string>
+    <string name="ok">Aceptar</string>
+    <string name="password">Contraseña</string>
+    <string name="pleaseWait">Por favor espere...</string>
+    <string name="search_radius">Radio de búsqueda(en mtrs)</string>
+    <string name="settings">Configuraciones</string>
+    <string name="unknownError">Ha ocurrido un error desconocido. Por favor intente nuevamente.</string>
+    <string name="vibration">Vibración</string>
+    <string name="succesfulLogin">Inicio de sesión exitosa</string>
+    <string name="sign_up_with">Registrarte con</string>
+    <string name="sign_up">REGISTRO</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="sign_in">INGRESAR</string>
+    <string name="shortUserName">El apodo debe ser >= a 6 caracteres</string>
+    <string name="shortPassword">La contraseña debe ser >= a 6 caracteres</string>
+    <string name="sign_upp">REGISTRAR</string>
 </resources>

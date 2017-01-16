@@ -9,7 +9,7 @@
         android:id="@+id/titulo"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Enter a nickname"
+        android:text="@string/enter_nickname"
         android:gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@android:color/black"
