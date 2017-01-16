@@ -51,7 +51,7 @@ As __ZombieAttack__ is a based user location game I used GIS(Geographic Informat
 ##Screenshots
 <p align="center">
   <img src="Screenshots/main_menu.png" width="350"/>
-  <img src="Screenshots/enter_nickname.png" width="350"/>
+  <img src="Screenshots/nickname.png" width="350"/>
   <img src="Screenshots/main.png" width="350"/>
   <img src="Screenshots/sign_up.png" width="350" />
   <img src="Screenshots/settings.png" width="350" />
