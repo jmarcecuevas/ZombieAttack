@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="AUTHOR">Marcelo Cuevas</string>
     <string name="accessToken"></string>
     <string name="email">Email</string>
     <string name="failedLogin">Inicio de sesión falló. El apodo o la contrraseña son incorrectas.</string>
