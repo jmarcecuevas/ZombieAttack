@@ -22,11 +22,13 @@ password. As in the Google case, the application validates each one of the field
 ##How was it done with?
 To develop this application I have used:
 * **Mapbox Android SDK.**
+* **Google Play Services (Location API)**.
+* **Google Sign in**.
+* **Dagger2** to inject dependencies.
+* **ButterKnife**: to inject views.
 * **MVP(Model View Presenter)** pattern. 
 * **Observer pattern.**
 * **Singleton pattern.**
-* **Dagger2** to inject dependencies.
-* **ButterKnife**: to inject views.
 * **Retrofit**: to HTTP requests.
 * **MediaPlayer**: to play sounds.
 * **MySQL**: I chose this RDBMS to store user information like name,nickname,password and location.
@@ -38,7 +40,7 @@ To develop this application I have used:
 * **SharedPreferences** to store user preferences.
 * **ScaleGestureDetector** to zoom and tilt the map simultaneously when the user pinchs to zoom as by default Mapbox only zooms or tilts the map, not both at the same time.
 * **Custom Dialogs** : I created a class named "CustomDialog" which extends Dialog to personalize dialogs.
-* **Fade in,Fade out,Zoom in and Zoom out** as animations to the activities transitions.
+* **Fade in,Fade out,Zoom in and Zoom out** as animations for the activities transitions.
 * **Two languages available**: The application is in English and Spanish.
 
 ##WebServices
