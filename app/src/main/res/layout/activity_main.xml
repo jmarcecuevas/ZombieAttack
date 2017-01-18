@@ -6,7 +6,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.luckycode.zombieattack.MainActivity"
+    tools:context=".ui.activity.MainActivity"
     >
 
     <RelativeLayout
@@ -72,8 +72,7 @@
             android:scaleY="0.7"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_alignLeft="@+id/btnLogout"
-            android:layout_alignStart="@+id/btnLogout" />
+        />
 
         <TextView
             android:layout_width="wrap_content"
